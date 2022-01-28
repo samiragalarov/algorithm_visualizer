@@ -1,3 +1,5 @@
+Link for this project https://samiragalarov.github.io/algorithm_visualizer/
+
 Algorithm visualizer
 This alogtihms finds path . You can choose 2 type of algorith.
 1 - Depth first search
