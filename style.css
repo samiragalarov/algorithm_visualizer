@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.howtouse{
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main{
+    width: 510px;
+    height: 510px;
+    background-color: rgb(114, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.minkub{
+    width: 9.7%;
+    height: 9.7%;
+    border: 0,1 black solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.minkub.change{
+    background-color: yellow;
+}
+.mainkub.minpath{
+    background-color: rgb(209, 30, 155);
+}
+
+.minkub.block{
+    background-color:rgb(112, 108, 112);
+}
+.mainkub.startclass{
+    background-color: green;
+}
+
+.nav-bar{
+    width: 560px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.stbutton{
+    width: 90px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.stpoint{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(11, 19, 126);
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.endpoint{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(11, 19, 126);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.clearboard{
+
+    width: 90px;
+    height: 25px;
+    background-color: rgb(194, 32, 32);
+    color: white;
+    cursor: pointer;
+
+}
+.genblock{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(83, 83, 85);
+    color: white;
+    cursor: pointer;
+
+}
+.block1{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(83, 83, 85);
+    color: white;
+    cursor: pointer;
+
+}
+#aiselect{
+    
+    border: 2px solid rgb(39, 38, 38);
+    width: 160px;
+    height: 30px;
+} 
+
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
