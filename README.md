@@ -1,17 +1,37 @@
-Link for this project https://samiragalarov.github.io/algorithm_visualizer/
-<h1>cjdknwk</h1>
-Algorithm visualizer
+<h2>Link for this project</h2> https://samiragalarov.github.io/algorithm_visualizer/
+<h1>Algorithm visualizer</h1>
+
 This alogtihms finds path . You can choose 2 type of algorith.
-1 - Depth first search
-2 - Bread first search
+<ul>
+    <li>1 - Depth first search</li>
+    <li>2 - Bread first search</li>
+</ul>
 
-How you can use it?
-1.choose algorithm
-2.add single block or generate more
-3.select start and end point
-4.start algorithm
+<h3>How you can use it?</h3>
+<ul>
+    <li>1.choose algorithm</li>
+    <li>2.add single block or generate more</li>
+    <li>3.select start and end point</li>
+    <li>4.start algorithm</li>
+   
 
-*you can choose also algorithm speed
 
-Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
-Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. 
+
+
+</ul>
+
+
+
+
+<h3> *you can choose also algorithm speed</h3>
+<h4>
+    Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
+
+</h4>
+<h4>
+    Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property.
+
+</h4>
+
+
+ 
