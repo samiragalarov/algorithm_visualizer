@@ -21,6 +21,23 @@
     
 
            <h2>Path finding algorithm</h2>
+           <div class="select">
+            <select id="aiselect" >
+
+                <option value="1" >Bread first search</option>
+                <option value="2">depth first search</option>
+              
+            </select>
+            <button class="block1" onclick="blockf()">block</button>
+            <button class="genblock" onclick="generateBoard()">genBlock</button>
+            <select id="speed" onchange="speedChange()">
+                <option value="40">Normal</option>
+                <option value="460">Slow</option>
+                <option value="10">Fast</option>
+            </select>
+
+
+        </div> 
             <div class="main" id="main">
              
 
@@ -125,31 +142,18 @@
                 <div id="9,8" class="minkub"></div>
                 <div id="9,9" class="minkub"></div>
             </div>
-            <div class="select">
-                <select id="aiselect" >
-
-                    <option value="1" >Bread first search</option>
-                    <option value="2">depth first search</option>
-                  
-                </select>
-                <select id="speed" onchange="speedChange()">
-                    <option value="40">Normal</option>
-                    <option value="460">Slow</option>
-                    <option value="10">Fast</option>
-                </select>
-
-            </div>
-
-            <div class="nav-bar">
 
 
-                <button class="stbutton" onclick="start()">start</button>
+           <div class="nav-bar">
+
+
+                
                 <button class="stpoint" onclick="startpoint()">startpoint</button>
                 <button class="endpoint" onclick="endpointf()">endpoint</button>
-                <button class="block1" onclick="blockf()">block</button>
-                <button class="genblock" onclick="generateBoard()">genBlock</button>
                 <button class="clearboard" onclick="clearboard()">clear board</button>
-            </div>
+                <button class="stbutton" onclick="start()">start</button>
+            </div> 
+
 
 
 
